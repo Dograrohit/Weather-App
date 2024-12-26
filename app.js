@@ -14,7 +14,7 @@ let get = async (place)=>{
     let response = await fetch(url + place + `&appid=${APIkey}`);
     let data = await response.json();
     console.log(data);
-    temp.innerHTML = Math.floor( data.main.temp)+"c";
+    temp.innerHTML = Math.floor( data.main.temp)+"°c";
     wind.innerText = Math.floor(data.wind.speed)+"Km/h";
     des.innerHTML = data.weather[0].main;
     city.innerHTML = data.name;
