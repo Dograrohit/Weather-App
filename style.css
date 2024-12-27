@@ -13,7 +13,8 @@
     justify-content: center;
 }
 .weather{
-    border: 2px soli;
+    border: 2px solid;
+    border-radius: 20px;
     height: 450px;
     width: 300px;
     background: linear-gradient(40deg,#168aad,#99d98c);

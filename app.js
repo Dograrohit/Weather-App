@@ -41,3 +41,8 @@ btn.addEventListener("click",()=>{
     get(input.value);
 });
 
+input.addEventListener("keypress",(e)=>{
+  if(e.key == "Enter"){
+    get(input.value);
+  }
+})
