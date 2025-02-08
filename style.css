@@ -20,6 +20,27 @@
     background: linear-gradient(40deg,#168aad,#99d98c);
     color:#e9d8a6;
 }
+#root{
+    display: flex;
+    margin-top: 90px;
+    margin-left:55px ;
+    border: 15px solid;
+    border-top:15px solid #168aad;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(-360deg);
+    }
+}
 .search{
     margin-top: 20px;
     display: flex;
